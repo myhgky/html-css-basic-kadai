@@ -1,0 +1,16 @@
+mizuho@Mimi-pro lesson % mkdir git_challenge
+mizuho@Mimi-pro lesson % cd git_challenge
+mizuho@Mimi-pro git_challenge % git init
+Initialized empty Git repository in /Users/mizuho/Desktop/lesson/git_challenge/.git/
+mizuho@Mimi-pro git_challenge % git add .
+mizuho@Mimi-pro git_challenge % git commit -m "hello_world.txtを追加"
+[main (root-commit) 7a79dc7] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+mizuho@Mimi-pro git_challenge % git add .
+mizuho@Mimi-pro git_challenge % git commit -m "日本語訳を追記"
+[main 0386068] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+mizuho@Mimi-pro git_challenge % git log --oneline
+0386068 (HEAD -> main) 日本語訳を追記
+7a79dc7 hello_world.txtを追加
