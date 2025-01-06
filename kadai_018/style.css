@@ -1,23 +1,20 @@
 #top {
   width: 800px;
   background-color: #dcc9f4;
-  padding: 20px 0px;
-  margin: 20px auto 20px auto;
+  margin: 20px auto;
   text-align: center;
-}
-#top p {
-  width: 20%;
 }
 .top-child {
   background-color: #ffd9df;
   display: inline-block;
+  width: 20%;
 }
+
 
 #middle {
   width: 800px;
   height: 800px;
-  margin: 20px auto 20px auto;
-  text-align: center;
+  margin: 20px auto;
   background-color: #ffd9df;
 }
 #middle > div {
@@ -41,10 +38,12 @@
   left: 500px;
 }
 
+
 #bottom {
   width: 800px;
   height: 300px;
-  margin: 20px auto 20px auto;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #87ceeb;
 }
 #bottom > div {
