@@ -2,8 +2,7 @@
   width: 800px;
   background-color: #dcc9f4;
   padding: 20px 0px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto 20px auto;
   text-align: center;
 }
 #top p {
@@ -45,8 +44,7 @@
 #bottom {
   width: 800px;
   height: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto 20px auto;
   background-color: #87ceeb;
 }
 #bottom > div {
